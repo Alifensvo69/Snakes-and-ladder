@@ -1,0 +1,23 @@
+def find_positive_numbers(input_list):
+    positive_numbers = []
+    
+    for number in input_list:
+        if number > 0:
+            positive_numbers.append(number)
+    
+    return positive_numbers
+
+# Test the function with List1 and list2
+List1 = [12, -7, 5, 64, -14]
+list2 = [12, 14, -95, 3]
+
+result1 = find_positive_numbers(List1)
+result2 = find_positive_numbers(list2)
+
+print("Output for List1:", result1)
+print("Output for list2:", result2)
+
+
+Output:
+Output for List1: [12, 5, 64]
+Output for list2: [12, 14, 3]
